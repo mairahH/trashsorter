@@ -45,18 +45,6 @@ Initial experiments yielded an average accuracy of **47%**, with plans to improv
 1. Connect the Arduino Uno to the ultrasonic sensor, servo motor, and webcam via the breadboard.  
 2. Attach the servo motor to the rotating platform.  
 
-### Software Setup:  
-1. Install required libraries:  
-   ```bash
-   pip install clarifai pyserial
-2. Clone the repository:
-```git clone https://github.com/mairahH/trashsorter.git
-```cd trashsorter
-3. Upload draft.ino to the Arduino Uno using the Arduino IDE.
-Run the Python script to start the TrashSorter:
-```bash
-python draft.py
-
 ### **Project Insights**
 This project demonstrates the integration of machine learning with hardware systems to solve a real-world problem.
 Areas for improvement include increasing training data for the model and enhancing hardware stability.
